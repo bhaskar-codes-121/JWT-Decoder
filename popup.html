@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+References:
+icon taken from : https://jwt.io/
+JWT Decode Logic: https://stackoverflow.com/questions/38552003/how-to-decode-jwt-token-in-javascript-without-using-a-library
+--> 
+
+<head>
+    <link rel="stylesheet" href="mycss.css">
+
+  </head>
+
+<body>
+<img src="jwticon.png">
+<br>
+<form >
+  
+  <b><p align="center">Enter JWT token below: </p></b>  
+  <input type = "text" style = 'width:100%' name = "user_jwt" id="user_jwt"/>
+    <br>
+    <br>
+    <input type = "button" name = "ok" id="mybutton" value = "Decode"/>
+    <input type = "button" style= "float:right; background-color: blue;  font-weight: bold;" name = "ok" id="mybutton1"  value = "Reset"/> 
+</form>
+ <script src="myscripts.js"></script>
+<code><pre id="result"></pre></code>
+</body>
+</html>
